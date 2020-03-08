@@ -20,7 +20,7 @@ output:
 class: left, middle, inverse
 
 # Coevolutionary Graphs
-## Models, Dynamics, and Approximations
+## Models, Dynamics, and Approximations 
 
 .pull-left[
 ###  Phil Chodrow, MIT 
