@@ -283,7 +283,7 @@ Solve to obtain an approximation for the arch....that doesn't match the data ver
 ]
 
 .right-column[
-A continuous-time **compartmental** approach: track node densities with $j$ agreeing neighbors nad $k$ disagreeing neighbors, for each combination of $k$ and $j$.
+A continuous-time .alert[**compartmental**] approach: track node densities with $j$ agreeing neighbors nad $k$ disagreeing neighbors, for each combination of $k$ and $j$.
 
 ![:scale 60%](img/AME.png)
 
@@ -317,7 +317,7 @@ Literally anything else.
 
 
 
-3). **Discrete-time Markovian Approximations** -- Chodrow + Mucha, *SIAM J. Applied Math* (2020)
+3). .alert[**Discrete-time Markovian approximations**] -- Chodrow + Mucha, *SIAM J. Applied Math* (2020)
 ]
 
 ---
@@ -350,15 +350,15 @@ We haven't experienced a high degree of success with the "standard physics toolk
 
 --
 
-This is a **great area** for applied mathematicians, with potential applications in evolutionary dynamics and theoretical ecology. 
+This is a .alert[**great area**] for applied mathematicians, with potential applications in evolutionary dynamics and theoretical ecology. 
 
 --
 
-Plenty of room to define new, interesting models and novel analysis techniques. 
+Plenty of room to define new, interesting models and analysis techniques. 
 
 --
 
-**The best work here is yet to come!** 
+**The best work here is yet to come!**
 
 ---
 
@@ -372,7 +372,7 @@ class: left, top, inverse
 
 MIT Operations Research Center
 
-[philchodrow.com](www.philchodrow.com)  
+[philchodrow.com](https://www.philchodrow.com)  
 
 @philchodrow
 ]
