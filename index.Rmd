@@ -14,7 +14,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
-      beforeInit: "macros.js"
+      beforeInit: "./js/macros.js"
 ---
 
 class: left, middle, inverse
