@@ -27,6 +27,7 @@ options(htmltools.dir.version = FALSE)
 # Coevolutionary Graphs
 ## Models, Dynamics, and Approximations
 
+
 .pull-left[
 ###  Phil Chodrow, MIT 
 ### *Peter Mucha, UNC*
@@ -34,9 +35,11 @@ March 22nd, 2020
 ]
 
 .pull-right[
-![](img/nsf_logo.png) 
-![:scale 40%](img/mit.png) 
-![:scale 30%](img/UNC.png) 
+.centered[
+<br>
+<br>
+	![](img/nsf_logo.png) 
+]
 ]
 
 ---

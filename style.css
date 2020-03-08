@@ -25,6 +25,9 @@ p {
 	font-size: .7em;
 }
 
+.centered {
+	text-align: center;}
+
 li {
   font-size: 1.5em;
   padding:.2em
