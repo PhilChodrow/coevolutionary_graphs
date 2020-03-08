@@ -25,7 +25,7 @@ options(htmltools.dir.version = FALSE)
 
 
 # Coevolutionary Graphs
-## Dynamics, Approximations, Outlook
+## Models, Dynamics, and Approximations
 
 .pull-left[
 ###  Phil Chodrow, MIT 
@@ -35,7 +35,7 @@ March 22nd, 2020
 
 .pull-right[
 ![](img/nsf_logo.png) 
-![:scale 40%](img/mit_logo.png) 
+![:scale 40%](img/mit.png) 
 ![:scale 30%](img/UNC.png) 
 ]
 
@@ -66,11 +66,11 @@ Leiberman et al., *Nature* (2005)
 ## Review: **Evolutionary Games on Graphs**
 
 .pull-left[
-	
+.smaller[	
 1. Agents play a chosen strategy  in a two-player game along each weighted edge. 
 1. An agent is selected for death, replaced proportional to fitness of neighbors. 
 1. **Result**: It is possible to classify whether selection favors the emergence of cooperative behavior based purely on graph topology. 
-	
+]
 ]
 
 
