@@ -29,12 +29,14 @@ options(htmltools.dir.version = FALSE)
 
 .pull-left[
 ###  Phil Chodrow, MIT 
-### (*Peter Mucha, UNC*)
+### *Peter Mucha, UNC*
 March 22nd, 2020
 ]
 
 .pull-right[
-![](img/nsf_logo.png) ![:scale 40%](img/mit_logo.png) ![:scale 30%](img/UNC.png) 
+![](img/nsf_logo.png) 
+![:scale 40%](img/mit_logo.png) 
+![:scale 30%](img/UNC.png) 
 ]
 
 ---
