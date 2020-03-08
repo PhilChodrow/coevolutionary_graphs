@@ -19,6 +19,11 @@ output:
 
 class: left, middle, inverse
 
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+
 # Coevolutionary Graphs
 ## Dynamics, Approximations, Outlook
 
