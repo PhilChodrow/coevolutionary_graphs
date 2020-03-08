@@ -43,7 +43,7 @@ class: left, top
 
 .pull-left[.smaller[1. Choose an individual `\(i\)` proportional to their current fitness `\(\phi_i\)`. 
 1. Sample `\(j \in \mathcal{N}(i)\)` proportional to `\(w_{ij}\)`. Then, `\(\phi_j\gets \phi_i\)`.
-1. **Isothermal Theorem**: This process has the same long-term selection dynamics as the complete graph `\(K_n\)` iff `\(T_i = \sum_j{w_{ji}}\)` is constant on `\(V\)`. 
+1. .alert[**Isothermal Theorem**]: This process has the same long-term selection dynamics as the complete graph `\(K_n\)` iff `\(T_i = \sum_j{w_{ji}}\)` is constant on `\(V\)`. 
 ]
 ]
 
@@ -64,7 +64,7 @@ Leiberman et al., *Nature* (2005)
 .smaller[	
 1. Agents play a chosen strategy  in a two-player game along each weighted edge. 
 1. An agent is selected for death, replaced proportional to fitness of neighbors. 
-1. **Result**: It is possible to classify whether selection favors the emergence of cooperative behavior based purely on graph topology. 
+1. .alert[**Result**]: It is possible to classify whether selection favors the emergence of cooperative behavior based purely on graph topology. 
 ]
 ]
 
@@ -159,7 +159,7 @@ background-size: contain
 
 class: left, middle, inverse
 
-.bigger[Disparate **timescales** between node and edge dynamics drive phase transitions in long-term behavior.]
+.bigger[Disparate .alert[**timescales**] between node and edge dynamics drive phase transitions in long-term behavior.]
 
 ---
 
@@ -170,10 +170,10 @@ class: left, top
 Nodes have binary states `\(\in \{0,1\}\)`. 
 At each time step `\(t\)`: 
 
-1. Pick an edge `\(e = (u,v)\)` where `\(u\)` and `\(v\)` disagree. 
-2. Then, 
-	- With probability `\(\alpha\)`, **rewire**: delete `\((u,v)\)` and form `\((u,w)\)`, where `\(w\)` agrees with `\(u\)` ("rewire-to-same") or `\(w\)` is uniformly random ("rewire-to-random"). 
-	- With probability `\(1-\alpha\)`, **vote**: `\(v\)` adopts `\(u\)`'s opinion. 
+Pick an edge `\(e = (u,v)\)` where `\(u\)` and `\(v\)` disagree. 
+
+- With probability `\(\alpha\)`, .alert[**rewire**]: delete `\((u,v)\)` and form `\((u,w)\)`, where `\(w\)` agrees with `\(u\)` ("rewire-to-same") or `\(w\)` is uniformly random ("rewire-to-random"). 
+- With probability `\(1-\alpha\)`, .alert[**vote**]: `\(v\)` adopts `\(u\)`'s opinion. 
 	
 Repeat until no disagreement is left. 
 
@@ -181,9 +181,9 @@ Repeat until no disagreement is left.
 
 # Model Timescales
 
-In a world with only rewiring ( `\(\alpha = 1\)` ), **coupon-collector** dynamics would resolve all disagreement in time `\(\sim O(n \log n)\)` on sparse graphs, `\(\rightarrow\)` **segregated consensus**.  
+In a world with only rewiring ( `\(\alpha = 1\)` ), .alert[**coupon-collector**] dynamics would resolve all disagreement in time `\(\sim O(n \log n)\)` on sparse graphs, `\(\rightarrow\)` .alert[**segregated consensus**].  
 
-In a world with only voting ( `\(\alpha = 0\)` ), **voting dynamics** would resolve all disagreement in time `\(\sim O(n^2)\)`, `\(\rightarrow\)` **hegemonic consensus**. 
+In a world with only voting ( `\(\alpha = 0\)` ), .alert[**voting dynamics**] would resolve all disagreement in time `\(\sim O(n^2)\)`, `\(\rightarrow\)` .alert[**hegemonic consensus**]. 
 
 --
 
@@ -200,7 +200,7 @@ class: left, top
 ]
 .pull-right[
 
-**Quasistable manifold** governing relationship between fraction of ones `\(q_1\)` and fraction of discordant edges `\(\rho\)`. In rewire-to-random,
+.alert[**Quasistable manifold**] governing relationship between fraction of ones `\(q_1\)` and fraction of discordant edges `\(\rho\)`. In rewire-to-random,
 
 - For `\(\alpha \geq 0.73\)`, no arch appears `\(\rightarrow\)` immediate segregated consensus. 
 - For `\(\alpha \leq 0.73\)`, nonegalitarian (nearly hegemonic) segregated consensus. 
@@ -215,8 +215,8 @@ class: left, top
 ]
 
 .pull-right[
-- **Phase Transition**: Can we estimate the value of `\(\alpha\)` at which the arch emerges?
-- **Quasistable Density**: Can we estimate the complete shape of the arch? 
+- .alert[**Phase Transition**]: Can we estimate the value of `\(\alpha\)` at which the arch emerges?
+- .alert[**Quasistable Density**]: Can we estimate the complete shape of the arch? 
 ]
 
 ---
