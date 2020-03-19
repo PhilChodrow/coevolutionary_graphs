@@ -30,9 +30,25 @@ March 22nd, 2020
 .centered[
 &lt;br&gt;
 &lt;br&gt;
-	![](img/nsf_logo.png) 
+	![:scale 40%](img/nsf_logo.png) 
 ]
 ]
+
+---
+
+class: left, top
+
+# Agenda
+
+1). Quick review of some evolutionary graph theory models (for contrast).
+
+2). **Co**evolutionary models and competing timescales. 
+
+3). Extended example: approximations for the adaptive voter model.
+
+--
+
+4). *(The hidden agenda): I want you to work on coevolutionary models.*
 
 ---
 
@@ -62,7 +78,7 @@ Leiberman et al., *Nature* (2005)
 
 .pull-left[
 .smaller[	
-1. Agents play a chosen strategy  in a two-player game along each weighted edge. 
+1. Agents play a chosen strategy  in a two-player game along each weighted edge.
 1. An agent is selected for death, replaced proportional to fitness of neighbors. 
 1. .alert[**Result**]: It is possible to classify whether selection favors the emergence of cooperative behavior based purely on graph topology. 
 ]
@@ -202,7 +218,7 @@ class: left, top
 
 .alert[**Quasistable manifold**] governing relationship between fraction of ones `\(q_1\)` and fraction of discordant edges `\(\rho\)`. In rewire-to-random,
 
-- For `\(\alpha \geq 0.73\)`, no arch appears `\(\rightarrow\)` immediate segregated consensus. 
+- For `\(\alpha \geq 0.73\)`, no arch appears `\(\rightarrow\)` rapid segregated consensus. 
 - For `\(\alpha \leq 0.73\)`, nonegalitarian (nearly hegemonic) segregated consensus. 
 ]
 
@@ -275,7 +291,7 @@ Solve to obtain an approximation for the arch....that doesn't match the data ver
 ]
 
 .right-column[
-A continuous-time .alert[**compartmental**] approach: track node densities with `\(j\)` agreeing neighbors nad `\(k\)` disagreeing neighbors, for each combination of `\(k\)` and `\(j\)`.
+A continuous-time .alert[**compartmental**] approach: track node densities with `\(j\)` agreeing neighbors and `\(k\)` disagreeing neighbors, for each combination of `\(k\)` and `\(j\)`.
 
 ![:scale 60%](img/AME.png)
 
@@ -324,11 +340,24 @@ background-size: contain
 `$$\underbrace{\mathbf{m}(t+1) - \mathbf{m}
 (t)}_{\text{change in edge counts}} = \underbrace{\alpha\mathbb{E}[\mathbf{R}(\mathbf{x})]}_{\text{rewiring}} +\underbrace{(1-\alpha)\mathbb{E}[\mathbf{V}(\mathcal{G}(t))]}_{\text{voting}}$$`
 
+.pull-left[
 Second term is non-Markovian `\(\rightarrow\)` no closed form. 
 
-But we can approximate it by estimating the reproductive potential of discordant edges analytically. 
+We can approximate it by tracking each discordant edge (under some modeling assumptions). 
 
-Similar flavor to branching-process type analysis. 
+Ugly bookkeeping, but easy solutions.
+]
+.pull-right[
+![](img/pjm.jpg)
+
+Joint work with Peter Mucha, UNC
+]
+
+---
+background-image: url('img/table.png')
+background-size: contain
+
+.footnote[(Impacts and rates for different kinds of voting events)]
 
 ---
 background-image: url('img/arch_approx.png')
@@ -336,17 +365,17 @@ background-size: contain
 
 ---
 
-# Future Outlook
+# Takeaways
 
-We haven't experienced a high degree of success with the "standard physics toolkit" for working with coevolving graphs. 
+Competing timescales of node and edge dynamics drive rich behavior even in simple systems. 
+
+--
+
+It seems like it helps to treat these systems as truly discrete, rather than resort to continuous-time approximations. 
 
 --
 
 This is a .alert[**great area**] for applied mathematicians, with potential applications in evolutionary dynamics and theoretical ecology. 
-
---
-
-Plenty of room to define new, interesting models and analysis techniques. 
 
 --
 
@@ -360,11 +389,9 @@ class: left, top, inverse
 
 .large-left-column[
 
-**Phil Chodrow**
+![:scale 90%](img/bio-photo.jpg)
 
-MIT Operations Research Center
-
-[philchodrow.com](https://www.philchodrow.com)  
+[philchodrow.com](https://www.philchodrow.com) 
 
 @philchodrow
 ]

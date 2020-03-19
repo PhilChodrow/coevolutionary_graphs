@@ -79,6 +79,7 @@ h3 {
   color: #000000;
   text-shadow: 0 0 0px #333;
   text-align: left;
+  background-size: 100% 100%;
 }
 .inverse h1, .inverse h2, .inverse h3 {
   color: #272822;
